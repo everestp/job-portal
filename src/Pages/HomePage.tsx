@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../Headers/Header'
 import DreamJob from '../LandingPage/DreamJob'
 import Companies from '../LandingPage/Companies'

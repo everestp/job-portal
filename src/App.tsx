@@ -1,10 +1,8 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import "@mantine/core/styles.css"
-import { createTheme, MantineProvider, RangeSlider, Slider } from '@mantine/core'
-import Header from './Headers/Header'
+import { createTheme, MantineProvider } from '@mantine/core'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomePage from './Pages/HomePage'
 

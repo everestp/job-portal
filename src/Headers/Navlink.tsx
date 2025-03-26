@@ -11,10 +11,11 @@ const NavLinks = () => {
     return (
       <div className="flex gap-5 text-mine-shaft-300 h-full items-center">
        {
+        
         links.map((link,index)=>(
-            <div  className={`border-t-[3px] h-full flex items-center ${location.pathname==="/"+link.url? "border-bright-sun-400 text-bright-sun-400 ":"border-transparent"} `}>
+            <div key={link.url} className={`border-t-[3px] h-full flex items-center ${location.pathname==="/"+link.url? "border-bright-sun-400 text-bright-sun-400 ":"border-transparent"} `}>
 
-                <Link key={index} to={links[index].url}>{link.name}</Link>
+                <Link to={links[index].url}>{link.name}</Link>
             </div>
         ))
        }
