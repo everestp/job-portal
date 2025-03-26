@@ -10,6 +10,7 @@ const Header = () => {
         <div className="text-3xl font-semibold">JobDEv</div>
       </div>
       <NavLinks/>
+      
       <div className="flex items-center gap-3">
       <div className="flex items-center gap-2">
             <div>Everest</div>
