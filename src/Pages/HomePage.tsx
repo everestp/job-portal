@@ -5,6 +5,8 @@ import Companies from '../LandingPage/Companies'
 import JobCategory from '../LandingPage/JobCategory'
 import Working from '../LandingPage/Working'
 import Testimonial from '../LandingPage/Testimonial'
+import Subscribe from '../LandingPage/Subscribe'
+import Footer from '../Footer/Footer'
 
 
 const HomePage = () => {
@@ -16,6 +18,9 @@ const HomePage = () => {
        <JobCategory/>
        <Working/>
        <Testimonial/>
+       <Subscribe/>
+       <Footer/>
+       
     </div>
   )
 }
