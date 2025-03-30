@@ -1,5 +1,5 @@
 import { IconAnchor, IconBrandFacebook, IconBrandInstagram, IconBrandX } from '@tabler/icons-react'
-import React from 'react'
+
 import { footerLinks } from '../Data/Data'
 
 const Footer = () => {
